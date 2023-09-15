@@ -1,0 +1,37 @@
+{
+  "name": "car-rental",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "20.6.1",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "antd": "^5.9.1",
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.5.1",
+    "next": "13.4.19",
+    "nodemailer": "^6.9.5",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.2",
+    "react-stripe-checkout": "^2.6.3",
+    "redux": "^4.2.1",
+    "stripe": "^13.6.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.4",
+    "@types/jsonwebtoken": "^9.0.2"
+  }
+}
